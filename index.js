@@ -1,4 +1,14 @@
+
+
+
+//menuButtonToggle
+function animate(x) {
+  x.classList.toggle("change");
+}
+
+/*-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X*/
 // code below sourced and modified from Mike Byrne at https://codepen.io/13twelve/pen/wvarPPN?editors=1100
+/*-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X*/
 
 // rgb vals of the gradients
 var gradients = [
