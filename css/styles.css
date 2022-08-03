@@ -1,60 +1,70 @@
 body {
   font-family: Georgia, serif;
+  font-size: 40px;
 }
 
-/*nav bar*/
-.navbar {
-  overflow: hidden;
-  background-color: ;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+
+/* Style navbar */
+#navbar a {
+  position: absolute;
+  transition: 0.8s; /* Add transition on hover */
+  padding-left: : 80px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom:15px;
   text-decoration: none;
+  width: auto;
+  text-shadow: 2px 2px 4px #111;
+  color: #EEEEEE;
+  border-radius: 0 20px 20px 0;
+  margin: auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+
 }
 
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
+#navbar a:hover {
+  left: -1%;
+  transition: 0.8s;
+  transition-delay: .0s;
+  background-color: rgba(88, 88, 88, 0.5);
 }
+
+#intro {
+  left: -195px;/* Start out of frame */
+  top: 20px;
+  color: white;
+}
+
+#bio {
+  left: -317px;/* Start out of frame */
+  top: 140px;
+}
+
+#projects {
+  left: -324px;/* Start out of frame */
+  top: 260px;
+}
+
+#resume {
+  left: -415px;/* Start out of frame */
+  top: 380px;
+}
+
+#conclusion {
+  left: -228px;/* Start out of frame */
+  top: 500px;
+}
+
+
+
 
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-left: 0;
+  padding-left: 0;
 }
 
-/*Animated menu button*/
-.menuBotton {
-  overflow: hidden;
-  background-color: black;
-  position: fixed; /* Set the navbar to fixed position */
-  display: inline-block;
-  cursor: pointer;
-}
-.line1, .line2, .line3 {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-.change .line1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-.change .line2 {opacity: 0;}
-.change .line3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
-}
 
 /*-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X*/
 /* code below sourced and modified from Mike Byrne at https://codepen.io/13twelve/pen/wvarPPN?editors=1100*/

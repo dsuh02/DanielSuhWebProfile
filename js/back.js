@@ -1,11 +1,6 @@
 
 
 
-//menuButtonToggle
-function animate(x) {
-  x.classList.toggle("change");
-}
-
 /*-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X*/
 // code below sourced and modified from Mike Byrne at https://codepen.io/13twelve/pen/wvarPPN?editors=1100
 /*-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X*/
@@ -16,7 +11,7 @@ var gradients = [
   { start: [64, 64, 64], stop: [166, 166, 166] } // dark to light grey
 ];
 // how long for each transition
-var transitionTime = 4;
+var transitionTime = 2;
 
 // internal type vars
 var currentIndex = 0; // where we are in the gradients array
