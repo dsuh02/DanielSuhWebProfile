@@ -1,0 +1,22 @@
+#title{
+  text-align: center;
+  top: 10%;
+  font-family: Georgia, serif;
+  font-size: 40px;
+  position: absolute;
+  color: #EEEEEE;
+  margin: auto;
+  width: 100%;
+}
+
+#break1{
+  top:10%;
+  margin: auto;
+  border-radius: 0 0 0 0;
+  position: absolute;
+  color: black;
+  box-shadow: 0px 5px 3px 2px rgba(0,0,0,.4);
+  width: 40%;
+  height: .1%;
+  left:30%;
+}
