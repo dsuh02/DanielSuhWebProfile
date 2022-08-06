@@ -58,16 +58,18 @@ body {
 
 
 .grid-container {
-  display: inline-grid;
+  width:70%;
+  height: 60%;
+  left: 15%;
+  top: 20%;
+  display: grid;
+  gap: 50px 50px;
 }
 
-
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-  margin-left: 0;
-  padding-left: 0;
+.grid{
+  
 }
+
 
 
 /*-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X*/
