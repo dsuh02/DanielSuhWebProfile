@@ -6,7 +6,6 @@ body {
 
 /* Style navbar */
 #navbar a {
-  position: absolute;
   transition: 0.8s; /* Add transition on hover */
   padding-left: : 80px;
   padding-right: 30px;
@@ -30,27 +29,32 @@ body {
 }
 
 #intro {
+  position: fixed;
   left: -195px;/* Start out of frame */
   top: 20px;
   color: white;
 }
 
 #bio {
+  position: fixed;
   left: -317px;/* Start out of frame */
   top: 140px;
 }
 
 #projects {
+  position: fixed;
   left: -324px;/* Start out of frame */
   top: 260px;
 }
 
 #resume {
+  position: fixed;
   left: -415px;/* Start out of frame */
   top: 380px;
 }
 
 #conclusion {
+  position: fixed;
   left: -228px;/* Start out of frame */
   top: 500px;
 }
@@ -58,7 +62,9 @@ body {
 
 
 .grid-container {
-  width:70%;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: auto;
+  width:75%;
   height: 60%;
   left: 15%;
   top: 20%;
@@ -67,7 +73,7 @@ body {
 }
 
 .grid{
-  
+  width: ;
 }
 
 
@@ -80,7 +86,7 @@ body {
   --grad-2: rgb(30,41,58);
 }
 #gradient {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   right: 0;
