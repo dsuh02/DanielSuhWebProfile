@@ -7,8 +7,9 @@
   color: #EEEEEE;
   margin: auto;
   width: 100%;
+  z-index: 2;
 }
 
 #grid1{
-  
+  z-index: 2;
 }

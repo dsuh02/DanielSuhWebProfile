@@ -18,7 +18,7 @@ body {
   border-radius: 0 20px 20px 0;
   margin: auto;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
-
+  z-index: 3;
 }
 
 #navbar a:hover {
@@ -62,18 +62,13 @@ body {
 
 
 .grid-container {
+  display: grid;
   grid-template-columns: 25% 25% 25%;
   grid-template-rows: auto;
-  width:75%;
-  height: 60%;
   left: 15%;
   top: 20%;
-  display: grid;
   gap: 50px 50px;
-}
-
-.grid{
-  width: ;
+  z-index: 2;
 }
 
 
@@ -93,4 +88,5 @@ body {
   bottom: 0;
   background: rgb(128,179,171);
   background: linear-gradient(45deg, var(--grad-1) 0%, var(--grad-2) 100%);
+  z-index: 1;
 }
