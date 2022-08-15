@@ -65,8 +65,7 @@ body {
   display: grid;
   grid-template-columns: 25% 25% 25%;
   grid-template-rows: auto;
-  left: 15%;
-  top: 20%;
+  left: 50px;
   gap: 50px 50px;
   z-index: 2;
 }
